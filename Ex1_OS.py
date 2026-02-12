@@ -15,35 +15,39 @@ print(profile)
 #       Attention : n'utilisez pas un chemin relatif.
 print(f"Q3{'_'*60}")
 os.chdir(f"{profile}\\Documents")
+print(os.getcwd())
+
 
     # NOTE : On ne peut pas écrire c:\\Users\\..... parce que ca ne fonctionnerait pas sur votre ordinateur à la maison
 
 # Q4   Imprimez la liste des répertoires et des fichiers qu'il y a dans 'Document'
 print(f"Q4{'_'*60}")
-os.listdir(f"{profile}\\Documents")
+print(os.listdir(f"{profile}\\Documents"))
 
 # Q5   Créez un répertoire OS-ExercQ5
 #       Réimprimez les répertoires et les fichiers dans 'Document'
 print(f"Q5{'_'*60}")
 os.makedirs("OS-ExercQ5")
-os.getcwd()
+print(os.getcwd())
 
 
 # Q6   Créez les répertoires OS-ExercQ6/Subdir1 avec une seule instruction
 #       Réimprimez les répertoires et les fichiers dans votre 'Document'
 print(f"Q6{'_'*60}")
 os.makedirs("OS-ExercQ6/Subdir1")
+print(os.getcwd())
 
 
 
 #Q7   Renommez le répertoire Subdir1 pour qu'il s'appelle Sous_repertoire
 print(f"Q6{'_'*60}")
 os.rename("Subdir1","Sous_repertoire")
+print(os.getcwd())
 # Q8   suppression du répertoire OS-ExercQ6 et de son contenu
 #       Réimprimez les répertoires et les fichiers dans votre 'Document'
 print(f"Q6{'_'*60}")
-os.remove("OS-ExercQ6")
-os.getcwd()
+#os.remove("OS-ExercQ6")
+#os.getcwd()
 
 
 
