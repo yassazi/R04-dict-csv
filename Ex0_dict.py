@@ -12,8 +12,13 @@ print(f"Le dictionnaire étudiant est au départ: {etudiant}")
 
 print(f"Q1{80*'_'}")
 # Q1:  on veut savoir la valeur du nom de l'étudiant en utilisant les f string
+<<<<<<< HEAD
 #      Dans le terminal, on aura: "Le nom de l'étudiant est : Vincent"  
 print(f"Le nom de l'étudiant est : {etudiant['nom']}")
+=======
+#      Dans le terminal, on aura: "Le nom de l'étudiant est : Vincent"
+print(etudiant['nom'])
+>>>>>>> 2ac589d88d6af92e6098405c5153463f433b7968
 
 
 
@@ -22,8 +27,13 @@ print(f"Q2{80*'_'}")
 # Q2: Ajoutez une nouvelle paire clé:valeur dans notre dictionnaire
 #  Ajoutez le courriel comme clé et '2112344@cegepmontpetit.ca'
 #  Dans le terminal on veut avoir: Voici le courriel de l'étudiant : 2112344@cegepmontpetit.ca
+<<<<<<< HEAD
 etudiant["courriel"] = "2112344@cegepmontpetit.ca"
 print(f"Le nom de l'étudiant est : {etudiant['courriel']}")
+=======
+dict.get["courriel"] = "2112344@cegepmontpetit.ca"
+
+>>>>>>> 2ac589d88d6af92e6098405c5153463f433b7968
 
 
 
