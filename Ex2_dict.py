@@ -7,6 +7,11 @@ def obtenir_liste_noms(p_data:list[dict]) -> list[str] :
     #       créée 1 str contenant le nom complète du client NOTE : Il est possible que VSCode ne soit pas capable de suggéré les clefs du dict.
     #       ajouté le nouveau nom à la liste de noms
     # retournée la liste de noms
+    liste_vide_exo1:list [str] = []
+    for valeur in p_data:
+      p_data.append(obtenir_liste_noms)
+    return liste_vide_exo1
+
 
 # Q2 : Créez la fonction "obtenir_solde_moyen", qui doit retourner un float.
             # On peut savoir le nombre de client avec la fonction len()
